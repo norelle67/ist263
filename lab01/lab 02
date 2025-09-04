@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Norelle-Bio</title>
+    </head>
+    <body>
+        <h1> Norelle Gbodogbe's Biography</h1>
+        <p>My name is Norelle Gbodogbe! I am an Information Management and Technology major with a concentration in Information Security. I am interested in getting into the cybersecurity field. I have learned how to code in Python and would love to learn more languages.</p>
+        </p> Outside of school, I am a dancer on the OneWorld dance team. I enjoy cooking, laughing with friends, and have an occasional interest in pop culture! I love all things<strong> pink </strong> despite growing up with all brothers. 
+        <p>
+        <strong>I have always had a curiosity regarding technology, so it only makes sense that I would seek a degree in IT.</strong>
+    </p>
+
+        <h2>Personal Information</h2>
+        <p>
+            I am such a people's person so outside of going to classes, I enjoy interacting with people in the schine student center.
+        </p>
+
+        <hr>
+        &copy;
+        <p>
+            My favorite places to study on campus ranked and why
+            <dl>
+                <dt>bird library</dt>
+                <dd>I like to study on the third floor because it is quiet and I tend to get the most work done there</dd>
+                <dt>third floor on schine</dt>
+                <dd>It is very comfy up there and more quiet compared to the other floors. It is also accessible to grab food.</dd>
+                <dt>carnegie library</dt>
+                <dd>it is VERY quiet there but sometimes it can be too much silence</dd>
+            </dl>
+        </p>
+    </body>
+</html>
+
