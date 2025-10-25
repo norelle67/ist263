@@ -2,29 +2,41 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f4f6fa;
+  color: #333;
 }
 
 nav {
-  background-color: #eee;
+  background-color: #1e3a5f;
   text-align: center;
-  padding: 10px;
+  padding: 12px;
 }
 
 nav a {
   text-decoration: none;
-  color: black;
-  margin: 0 10px;
+  color: #e0e6ed;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #a9c3df;
 }
 
 h1 {
   text-align: center;
-  margin-top: 20px;
+  color: #1e3a5f;
+  margin-top: 25px;
 }
 
 .main-flex {
   display: flex;
   justify-content: space-between;
-  margin: 20px;
+  margin: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
 
 .icons-section {
@@ -42,6 +54,16 @@ h1 {
 .skill {
   text-align: center;
   width: 120px;
+  background-color: #e9eff6;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  transition: transform 0.2s;
+}
+
+.skill:hover {
+  transform: scale(1.05);
+  background-color: #d8e4f2;
 }
 
 .skill img {
@@ -53,7 +75,34 @@ h1 {
 
 aside {
   flex: 1;
-  background-color: #f0f0f0;
+  background-color: #1e3a5f;
+  color: #fff;
   border-radius: 10px;
-  padding: 15px;
+  padding: 20px;
+}
+
+aside h2 {
+  text-align: center;
+  color: #cdd9e5;
+}
+
+form {
+  background-color: #ffffff;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+  background-color: #1e3a5f;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2b5282;
 }
