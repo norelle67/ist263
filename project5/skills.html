@@ -1,0 +1,74 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Home</a><span>|</span>
+    <a href="skills.html">Skills</a><span>|</span>
+    <a href="contact.html">Contact</a><span>|</span>
+  </nav>
+
+  <h1>Technical Skills</h1>
+  <p style="text-align:center;">Below are my top technical and soft skills represented with icons.</p>
+
+  <div class="skills-row">
+    <div class="skill">
+      <img src="python.png" alt="Python Icon">
+      <p>Python</p>
+    </div>
+    <div class="skill">
+      <img src="html-5.png" alt="HTML Icon">
+      <p>HTML</p>
+    </div>
+    <div class="skill">
+      <img src="css-3.png" alt="CSS Icon">
+      <p>CSS</p>
+    </div>
+    <div class="skill">
+      <img src="github-logo.png" alt="GitHub Icon">
+      <p>GitHub</p>
+    </div>
+    <div class="skill">
+      <img src="visual-studio.png" alt="Visual Studio Icon">
+      <p>Visual Studio</p>
+    </div>
+  </div>
+
+  <aside>
+    <h2>Other Skills</h2>
+    <ul>
+      <li>Communication</li>
+      <li>Teamwork</li>
+      <li>Excel</li>
+      <li>PowerPoint</li>
+      <li>Problem Solving</li>
+    </ul>
+  </aside>
+
+  <form action="https://formspree.io/f/xnnbklko" method="POST">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="skill">Favorite Skill:</label>
+    <select id="skill" name="skill">
+      <option value="python">Python</option>
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="teamwork">Teamwork</option>
+      <option value="communication">Communication</option>
+    </select><br><br>
+
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments"></textarea><br><br>
+
+    <input type="submit" value="Send">
+  </form>
+</body>
+</html>
