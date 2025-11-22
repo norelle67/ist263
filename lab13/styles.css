@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6fa;
+  color: #333;
+}
+
+nav {
+  background-color: #1e3a5f;
+  text-align: center;
+  padding: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #e0e6ed;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #a9c3df;
+}
+
+nav span {
+  color: #e0e6ed;
+}
+
+h1 {
+  text-align: center;
+  color: #1e3a5f;
+  margin-top: 25px;
+}
+
+.main-flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.icons-section {
+  flex: 3;
+  padding: 10px;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skill {
+  text-align: center;
+  width: 120px;
+  background-color: #e9eff6;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  transition: transform 0.2s;
+}
+
+.skill:hover {
+  transform: scale(1.05);
+  background-color: #d8e4f2;
+}
+
+.skill img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+aside {
+  flex: 1;
+  background-color: #1e3a5f;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+aside h2 {
+  text-align: center;
+  color: #cdd9e5;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside li {
+  margin: 6px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  min-width: 300px;
+}
+
+form {
+  background-color: #ffffff;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+  background-color: #1e3a5f;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2b5282;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #1e3a5f;
+  color: #e0e6ed;
+  padding: 15px;
+  border-top: 3px solid #a9c3df;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+img, .bio-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  nav a {
+    display: block;
+    width: 100%;
+  }
+
+  nav span {
+    display: none;
+  }
+
+  .main-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
