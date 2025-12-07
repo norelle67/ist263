@@ -9,34 +9,45 @@
 </head>
 
 <body>
+
+<a href="#main" class="skip-link">Skip to Content</a>
+
+<header>
   <nav>
     <a href="index.html">Home</a><span>|</span>
     <a href="skills.html">Skills</a><span>|</span>
-    <a href="contact.html">Contact</a><span>|</span>
+    <a href="contact.html">Contact</a>
   </nav>
+</header>
 
+<main id="main">
   <h1>Technical Skills</h1>
+
   <p style="text-align:center;">Below are my top technical and soft skills represented with icons.</p>
 
   <div class="skills-row">
     <div class="skill">
-      <img src="python.png" alt="Python Icon">
+      <img src="python.png" alt="Python programming language logo">
       <p>Python</p>
     </div>
+
     <div class="skill">
-      <img src="html-5.png" alt="HTML Icon">
+      <img src="html-5.png" alt="HTML logo">
       <p>HTML</p>
     </div>
+
     <div class="skill">
-      <img src="css-3.png" alt="CSS Icon">
+      <img src="css-3.png" alt="CSS styling logo">
       <p>CSS</p>
     </div>
+
     <div class="skill">
-      <img src="github-logo.png" alt="GitHub Icon">
+      <img src="github-logo.png" alt="GitHub logo">
       <p>GitHub</p>
     </div>
+
     <div class="skill">
-      <img src="visual-studio.png" alt="Visual Studio Icon">
+      <img src="visual-studio.png" alt="Visual Studio application logo">
       <p>Visual Studio</p>
     </div>
   </div>
@@ -52,23 +63,34 @@
     </ul>
   </aside>
 
+  
   <form action="https://formspree.io/f/xnnbklko" method="POST">
-    <label for="name">Your Name:</label>
-    <input type="text" id="name" name="name" required><br><br>
+    <fieldset>
+      <legend>Share Your Thoughts</legend>
 
-    <label for="skill">Favorite Skill:</label>
-    <select id="skill" name="skill">
-      <option value="python">Python</option>
-      <option value="html">HTML</option>
-      <option value="css">CSS</option>
-      <option value="teamwork">Teamwork</option>
-      <option value="communication">Communication</option>
-    </select><br><br>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
 
-    <label for="comments">Comments:</label><br>
-    <textarea id="comments" name="comments"></textarea><br><br>
+      <label for="skill">Favorite Skill:</label>
+      <select id="skill" name="skill">
+        <option value="python">Python</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="teamwork">Teamwork</option>
+        <option value="communication">Communication</option>
+      </select><br><br>
 
-    <input type="submit" value="Send">
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" name="comments"></textarea><br><br>
+
+      <input type="submit" value="Send">
+    </fieldset>
   </form>
+</main>
+
+<footer>
+  <p>&copy; 2025 Norelle Gbodogbe</p>
+</footer>
+
 </body>
 </html>
