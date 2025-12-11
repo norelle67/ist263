@@ -11,6 +11,7 @@
 .skip-link:focus {
   top: 10px;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -19,10 +20,10 @@ body {
   color: #333;
   line-height: 1.6;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
 }
-
 
 header {
   background-color: #1e3a5f;
@@ -52,7 +53,6 @@ h1, h2 {
   text-align: center;
   color: #1e3a5f;
 }
-
 
 .skills-row {
   display: flex;
@@ -93,7 +93,6 @@ aside {
   max-width: 400px;
 }
 
-/* Contact Page Layout */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -106,7 +105,6 @@ aside {
   min-width: 300px;
 }
 
-/* Form */
 form {
   background-color: #ffffff;
   margin: 30px;
@@ -134,7 +132,6 @@ img, .bio-image {
   border-radius: 10px;
 }
 
-/* Footer */
 footer {
   background-color: #1e3a5f;
   color: #e0e6ed;
