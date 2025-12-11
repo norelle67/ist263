@@ -126,9 +126,16 @@ input[type="submit"]:hover {
   background-color: #2b5282;
 }
 
-img, .bio-image {
+img {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
+}
+
+.bio-image {
+  max-width: 250px;
+  display: block;
+  margin: 20px auto;
   border-radius: 10px;
 }
 
