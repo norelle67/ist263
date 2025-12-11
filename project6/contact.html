@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<a href="#main" class="skip-link">Skip to Content</a>
+
+<header>
+  <nav>
+    <a href="index.html">Home</a><span>|</span>
+    <a href="skills.html">Skills</a><span>|</span>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main id="main">
+  <h1>Contact</h1>
+
+  <div class="row">
+    <div class="column">
+      <p>Norelle Gbodogbe</p>
+      <p>900 Crouse Ave, Syracuse, NY 13244</p>
+    </div>
+
+    <div class="column">
+      <p>
+        <a href="https://www.linkedin.com/in/norelleagbodogbe" target="_blank" rel="noopener">
+          <img src="../images/linkedin-logo/Linkedin-logo.png" alt="LinkedIn logo">  
+          My LinkedIn Profile
+        </a>
+      </p>
+
+      <p><a href="mailto:nagbodog@syr.edu">Send Email to Norelle</a></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <form>
+        <fieldset>
+          <legend>Send a Message</legend>
+
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="reason">Reason for Contact:</label>
+          <select id="reason" name="reason">
+            <option value="question">I have a question</option>
+            <option value="feedback">I have feedback</option>
+            <option value="collaboration">Collaboration opportunity</option>
+          </select><br><br>
+
+          <label for="message">Your Message:</label><br>
+          <textarea id="message" name="message"></textarea><br><br>
+
+          <input type="submit" value="Send">
+        </fieldset>
+      </form>
+    </div>
+
+    <div class="column">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!…" 
+        width="600" height="450" style="border:0;" allowfullscreen loading="lazy"
+        title="Map showing Syracuse University">
+      </iframe>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2025 Norelle Gbodogbe</p>
+</footer>
+
+</body>
+</html>
