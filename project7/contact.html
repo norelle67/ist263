@@ -12,7 +12,7 @@
 <a href="#main" class="skip-link">Skip to Content</a>
 
 <header>
-  <nav aria-label="Main navigation">
+  <nav>
     <a href="index.html">Home</a><span>|</span>
     <a href="skills.html">Skills</a><span>|</span>
     <a href="contact.html">Contact</a>
@@ -28,10 +28,11 @@
       <p>900 Crouse Ave, Syracuse, NY 13244</p>
     </div>
 
-    <div class="column">
+    <div class="column center-text">
       <p>
         <a href="https://www.linkedin.com/in/norelleagbodogbe" target="_blank" rel="noopener">
           <img src="images/linkedin.jpg" alt="LinkedIn logo">
+          <br>
           My LinkedIn Profile
         </a>
       </p>
@@ -44,22 +45,22 @@
 
   <div class="row">
     <div class="column">
-      <form action="#" method="post">
+      <form action="https://formspree.io/f/xnnbklko" method="POST">
         <fieldset>
           <legend>Send a Message</legend>
 
-          <label for="name">Your Name:</label>
-          <input type="text" id="name" name="name" required>
+          <label for="name">Your Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
 
-          <label for="reason">Reason for Contact:</label>
+          <label for="reason">Reason for Contact:</label><br>
           <select id="reason" name="reason">
             <option value="question">I have a question</option>
             <option value="feedback">I have feedback</option>
             <option value="collaboration">Collaboration opportunity</option>
-          </select>
+          </select><br><br>
 
-          <label for="message">Your Message:</label>
-          <textarea id="message" name="message"></textarea>
+          <label for="message">Your Message:</label><br>
+          <textarea id="message" name="message" rows="4"></textarea><br><br>
 
           <input type="submit" value="Send">
         </fieldset>
@@ -69,8 +70,10 @@
     <div class="column">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5832.264002817349!2d-76.13627248898942!3d43.038654091841366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fba2ccc55%3A0x5e6089065251084d!2sSyracuse%20University!5e0!3m2!1sen!2sus!4v1765671413798!5m2!1sen!2sus"
-        title="Map showing Syracuse University"
-        loading="lazy">
+        class="map"
+        loading="lazy"
+        allowfullscreen
+        title="Map showing Syracuse University">
       </iframe>
     </div>
   </div>
