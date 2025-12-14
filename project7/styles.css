@@ -54,35 +54,6 @@ h1, h2 {
   color: #1e3a5f;
 }
 
-.skills-row {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.skill {
-  text-align: center;
-  width: 120px;
-  background-color: #e9eff6;
-  border-radius: 8px;
-  padding: 10px;
-  margin: 10px;
-  transition: transform 0.2s;
-}
-
-.skill:hover {
-  transform: scale(1.05);
-  background-color: #d8e4f2;
-}
-
-.skill img {
-  width: 80px;
-  height: 80px;
-  display: block;
-  margin: 0 auto;
-}
-
 aside {
   background-color: #1e3a5f;
   color: #fff;
@@ -162,3 +133,35 @@ footer {
     flex-direction: column;
   }
 }
+
+.center-text {
+  text-align: center;
+}
+
+.skills-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 25px;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.skill {
+  text-align: center;
+  background-color: #e9eff6;
+  border-radius: 12px;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.skill img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
